@@ -13,7 +13,8 @@ const RegisterForm = () => {
         name: form.elements.name.value,
         email: form.elements.email.value,
         password: form.elements.password.value,
-      })
+      }),
+      alert('Congrats, you have successfully registered')
     );
     form.reset();
   };
