@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.username {
+    font-weight: 700;
+    color: white;
+}
+
+.logOutBtn {
+    color: black;
+    width: 70px;
+    padding: 0 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: lightskyblue;
+    box-shadow: 1px 1px 2px 1px gray;
+    cursor: pointer;
+}
+
+.logOutBtn:hover {
+    color: aliceblue;
+    background-color: cornflowerblue;
+}
+
+.logOutBtn:hover box-icon {
+    fill: aliceblue
+}

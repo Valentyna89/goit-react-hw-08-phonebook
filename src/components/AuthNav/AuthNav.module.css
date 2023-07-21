@@ -1,0 +1,19 @@
+.link {
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    font-family: math;
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 15px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.link:hover,
+.link:focus {
+    color: yellow;
+    border-radius: 2px;
+    background-color: rgba(176, 196, 222, 0.5);
+    box-shadow: 0.5px 0.5px 2px 0.5px white;
+}

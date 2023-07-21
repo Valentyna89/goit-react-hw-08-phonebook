@@ -1,0 +1,70 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    font-size: 48px;
+    margin-top: 100px;
+    font-family: math;
+
+}
+
+.contactsForm {
+    width: 400px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-top: 50px;
+
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 0px white;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(1px);
+}
+
+.contactData {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.inputData::placeholder {
+    color: #ffffff;
+
+}
+
+.inputData {
+    width: 250px;
+    padding: 9px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(176, 196, 222, 0.5);
+    box-shadow: 0.5px 0.5px 2px 0.5px white;
+}
+
+.addBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+    color: black;
+    width: 150px;
+    margin: 0;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: lightskyblue;
+    box-shadow: 1px 1px 2px 1px gray;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    color: aliceblue;
+    background-color: cornflowerblue;
+}
+
+.addBtn:hover box-icon {
+    fill: aliceblue
+}
